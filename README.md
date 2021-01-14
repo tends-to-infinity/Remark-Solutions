@@ -17,4 +17,4 @@ List of different shops are fetched from the database and placed in a **NESTED R
 You can redeem your coins in form of coupons provided by different shops in different form. You can view the redeemed coupons in the profile under coupons section.
 4. Profile:
 In this section you can see your details. Yiou can also logout from this section by clicking logout.
-# Remark-Solutions
+
