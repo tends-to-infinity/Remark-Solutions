@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.remarksolutions.MainArea.HomeFragment.HomeFrag"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.remarksolutions.MainArea.ExploreFragment.ExploreFrag"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/redeemFragment"
+        android:name="com.example.remarksolutions.MainArea.RedeemFragment.RedeemFrag"
+        android:label="fragment_redeem"
+        tools:layout="@layout/fragment_redeem" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.remarksolutions.MainArea.ProfileFragment.ProfileFrag"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

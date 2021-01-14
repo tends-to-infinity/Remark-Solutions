@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Login.CouponRegisterActivity">
+
+    <EditText
+        android:id="@+id/etCouponRegisterShopRegPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Shop Registered Mobile No"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etCouponRegisterCouponTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Coupon title"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etCouponRegisterCouponDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Spinner
+        android:id="@+id/spCouponCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/actvCouponRegisterPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:hint="Condition Place" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actvCouponRegisterGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:hint="Condition Gender" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actvCouponRegisterAgeG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:hint="Condition ageGroup" />
+
+    <EditText
+        android:id="@+id/etCouponRegisterQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="QUantity"
+
+        android:ems="10"
+        android:inputType="number" />
+
+
+
+    <Button
+        android:id="@+id/btnCouponRegisterSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Submit" />
+
+</LinearLayout>

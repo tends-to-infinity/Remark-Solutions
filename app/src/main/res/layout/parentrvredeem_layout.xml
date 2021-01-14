@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#99AAAB"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99AAAB"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#99AAAB"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvRedeemRVParentTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0ABDE3"
+                android:gravity="center"
+                android:text="Category NAme"
+                android:textSize="20dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvRedeemchildrv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:padding="15sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

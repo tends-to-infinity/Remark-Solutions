@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnplay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF0F1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainArea.HomeFragment.HomeFrag">
+
+    <Button
+        android:id="@+id/btnHomePlay"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/butt"
+        android:foreground="@drawable/ic_laugh" />
+
+    <TextView
+        android:id="@+id/tvHomefragCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="555 sec"
+        android:textSize="20dp" />
+
+</LinearLayout>

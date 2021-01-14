@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login.ShopRegisterActivity">
+
+    <EditText
+        android:id="@+id/etShopRegisterShopName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Shop Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etShopRegisterPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone No"
+        android:inputType="phone" />
+
+    <Spinner
+        android:id="@+id/spShopRegisterShopCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/etShopRegisterDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Shop Description"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etShopRegisterAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Shop Address "
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Images"
+        android:id="@+id/btnShopRegisterUploadImage"/>
+
+    <Button
+        android:id="@+id/btnShopRegisterSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Submit" />
+
+</LinearLayout>

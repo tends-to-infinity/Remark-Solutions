@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "627599296836",
+    "firebase_url": "https://remark-solutions.firebaseio.com",
+    "project_id": "remark-solutions",
+    "storage_bucket": "remark-solutions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627599296836:android:1da728444e2ce487dd6f11",
+        "android_client_info": {
+          "package_name": "com.example.remarksolutions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627599296836-4udovqdafmsvoocm03usj4m6nd8c2t19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.remarksolutions",
+            "certificate_hash": "b73b879e396c5db001ae5c9199f836ff5a66384a"
+          }
+        },
+        {
+          "client_id": "627599296836-e0ijlo97nuip6s9u0kttu8ephkgqth5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEqIyJWnavfiX8TesGTBlRl-94_4RN7V0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627599296836-e0ijlo97nuip6s9u0kttu8ephkgqth5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
